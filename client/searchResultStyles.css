@@ -1,0 +1,53 @@
+main {
+    font-family: 'Product Sans', sans-serif;
+}
+
+#logo {
+    font-weight: 550;
+    letter-spacing: -3.5px;
+    font-size: 25px;
+    cursor: default;
+}
+
+.search {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 575px;
+
+    border-radius: 50px;
+    border-color: rgb(236, 236, 236);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2.5px 2.5px 2.5px rgb(219, 217, 217);
+}
+
+.logo {
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#options {
+    display: inline;
+}
+
+ul li{
+    padding: 30px;
+    display: inline;
+    list-style-type: none;
+}
+
+.all, .fa-search {
+    color: #4c8bf5;
+    text-decoration: underline;
+}
+
+.fa-microphone { 
+    display: inline;
+    padding: 10px;
+}
