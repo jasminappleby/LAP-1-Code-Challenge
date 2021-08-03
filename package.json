@@ -1,0 +1,22 @@
+{
+  "name": "lap-1-code-challenge",
+  "version": "1.0.0",
+  "description": "code challenge for lap1 of futureproof",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrismawardi/LAP-1-Code-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrismawardi/LAP-1-Code-Challenge/issues"
+  },
+  "homepage": "https://github.com/harrismawardi/LAP-1-Code-Challenge#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
