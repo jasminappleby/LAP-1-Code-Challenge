@@ -5,13 +5,12 @@ form.addEventListener('submit',
 
     async (e) => {
         e.preventDefault()
+        window.location.pathname = "/client/searchResult.html";
         clearContent();
         let search = e.target.searchWord.value
         console.log(search)
         let searchFormatted = search.toLowerCase().replace(" ", "-")
         let listings;
-        // let search = "love island"
-        // let searchFormatted = search.toLowerCase().replace(" ", "-")
         await fetch(`http://localhost:8000/results/${searchFormatted}`)
             .then(response => response.json())
             .then(results => listings = results)
@@ -23,7 +22,7 @@ form.addEventListener('submit',
 
 
 function clearContent() {
-    document.querySelector("section").textContent = ""
+    document.querySelector("#container").textContent = ""
 }
 
 
@@ -43,7 +42,7 @@ function seperateInformation(searchResults) {
         listingContainer.appendChild(pageTitle)
         listingContainer.appendChild(text)
 
-        document.querySelector("section").appendChild(listingContainer)
+        document.querySelector("#container").appendChild(listingContainer)
 
     }
 }
