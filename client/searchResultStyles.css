@@ -1,5 +1,22 @@
+/* Style for more general aspects such as the main body, logos and text */
+
 main {
     font-family: 'Product Sans', sans-serif;
+}
+
+h1 {
+    font-size: larger;
+    font-weight: lighter;
+}
+
+section {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+article {
+    padding: 20px;
+    line-height: 10%;
 }
 
 #logo {
@@ -7,6 +24,11 @@ main {
     letter-spacing: -3.5px;
     font-size: 25px;
     cursor: default;
+}
+
+.logo {
+    text-decoration: none;
+    padding-right: 30px;
 }
 
 .search {
@@ -22,15 +44,7 @@ main {
     box-shadow: 2.5px 2.5px 2.5px rgb(219, 217, 217);
 }
 
-.logo {
-    text-decoration: none;
-    padding-right: 30px;
-}
-
-section {
-    display: inline-block;
-    vertical-align: middle;
-}
+/* Mock option bar and icon styling */
 
 #options {
     display: inline;
@@ -42,12 +56,44 @@ ul li{
     list-style-type: none;
 }
 
-.all, .fa-search {
-    color: #4c8bf5;
+.all {
     text-decoration: underline;
 }
 
-.fa-microphone { 
-    display: inline;
+.fa-search {
     padding: 10px;
 }
+
+.fa-search , .all { 
+    color: #4c8bf5;
+}
+
+img {
+    position: absolute;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.icons {
+    display: inline;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* styling for the tags within the article*/
+
+a {
+    text-decoration: none;
+    color: darkgrey;
+}    
+
+a.resultTitle {
+    color: #1906A7;
+}
+
+a.resultTitle:hover {
+    text-decoration: underline;
+}
+
+
+

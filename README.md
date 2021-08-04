@@ -10,8 +10,8 @@ Paired coding challenge with @Harrismawardi
 - [x] A Search Bar
 - [x] Two Buttons
 
-- Upon pressing one button an API call should be executed and users should be shown a page with ten results.
-- Upon pressing the other, users should be taken to the page of one of the results.
+- [] Upon pressing one button an API call should be executed and users should be shown a page with ten results.
+- [] Upon pressing the other, users should be taken to the page of one of the results.
 
 ## Tips and Rules 
 
