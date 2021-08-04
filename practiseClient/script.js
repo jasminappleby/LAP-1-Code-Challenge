@@ -5,7 +5,8 @@ form.addEventListener('submit',
 
     async (e) => {
         e.preventDefault()
-        window.location.pathname = "/client/searchResult.html";
+        //document.location = "http://127.0.0.1:5500/client/searchResult.html";
+        console.log(e)
         clearContent();
         let search = e.target.searchWord.value
         console.log(search)
