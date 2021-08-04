@@ -1,5 +1,5 @@
 const { test, expect } = require('@jest/globals')
-const script = require('../client/script')
+const script = require('../practiseClient/script')
 global.fetch = require('jest-fetch-mock')
 
 describe("getListings", () => {
