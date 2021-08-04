@@ -1,3 +1,5 @@
+/* Style for more general aspects such as the main body, logos and text */
+
 main {
     text-align: center;
 }
@@ -29,6 +31,7 @@ section {
     padding: 20px;
 }
 
+/* Styling for buttons */
 
 .buttons {
     width: 200px;
